@@ -1,5 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render # type: ignore
 
 # Create your views here.
-def nick(request):
-    return render(request, 'jobs/nick.html')
+def home(request):
+    return render(request, 'jobs/home.html')
